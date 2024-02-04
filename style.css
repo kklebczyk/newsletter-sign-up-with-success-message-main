@@ -51,6 +51,9 @@ h1 {
   height: 20px;
 }
 
+.container-for-advatages {
+  line-height: 5px;
+}
 .div-for-product-advatages {
   display: flex;
   align-items: center;
@@ -60,6 +63,7 @@ h1 {
 .email-information {
   font-weight: 700;
   font-size: 13px;
+  margin-top: 25px;
 }
 
 .email-input {
@@ -67,10 +71,7 @@ h1 {
   padding: 10px 0;
   border-radius: 5px;
   border: 1px solid var(--Grey);
-}
-
-.email-input::placeholder {
-  padding-left: 15px;
+  text-indent: 15px;
 }
 
 .subscribe-button {
@@ -80,6 +81,13 @@ h1 {
   color: var(--White);
   padding: 10px 0;
   border-radius: 5px;
+  border: none;
+  transition: 0.3s background-color;
+}
+
+.subscribe-button:hover {
+  background-color: var(--Tomato);
+  box-shadow: 2px 2px 20px var(--Tomato), 2px 2px 20px var(--Tomato);
 }
 
 .attribution {
