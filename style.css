@@ -5,6 +5,7 @@
   --Grey: hsl(231, 7%, 60%);
   --White: hsl(0, 0%, 100%);
 }
+
 body {
   font-family: "Roboto", sans-serif;
   padding: 0;
@@ -16,6 +17,12 @@ body {
   align-items: center;
   background-color: var(--Charcoal-Grey);
 }
+
+p {
+  font-size: 16px;
+  color: var(--Dark-Slate-Grey);
+}
+
 main {
   background-color: var(--White);
   display: flex;
@@ -25,10 +32,61 @@ main {
   border-radius: 20px;
 }
 
+.picture-on-sign-page {
+  height: 500px;
+}
+
+.form-on-first-page {
+  padding: 0 3%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--Dark-Slate-Grey);
+}
+
+.succes-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.div-for-product-advatages {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.email-information {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.email-input {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 1px solid var(--Grey);
+}
+
+.email-input::placeholder {
+  padding-left: 15px;
+}
+
+.subscribe-button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: var(--Dark-Slate-Grey);
+  color: var(--White);
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
