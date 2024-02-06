@@ -18,6 +18,13 @@ body {
   background-color: var(--Charcoal-Grey);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 p {
   font-size: 16px;
   color: var(--Dark-Slate-Grey);
@@ -79,22 +86,50 @@ h1 {
   margin-top: 20px;
   background-color: var(--Dark-Slate-Grey);
   color: var(--White);
-  padding: 10px 0;
+  padding: 15px 0;
   border-radius: 5px;
   border: none;
   transition: 0.3s background-color;
+  transition: 0.3s box-shadow;
 }
 
 .subscribe-button:hover {
   background-color: var(--Tomato);
-  box-shadow: 2px 2px 20px var(--Tomato), 2px 2px 20px var(--Tomato);
+  box-shadow: 0px 5px 20px var(--Tomato);
 }
 
-.attribution {
+section {
+  width: 40%;
+  background-color: var(--White);
+  padding: 4%;
+  border-radius: 20px;
+}
+
+.header-2 {
+  color: var(--Dark-Slate-Grey);
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.dismiss-button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: var(--Dark-Slate-Grey);
+  color: var(--White);
+  padding: 15px 0px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s background-color;
+  transition: 0.3s box-shadow;
+}
+
+. .attribution {
   font-size: 11px;
+  color: white;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Tomato);
 }
