@@ -154,11 +154,25 @@ section.hidden {
 }
 
 @media screen and (max-width: 797px) {
+  body {
+    min-height: 600px;
+  }
   main {
     flex-direction: column;
+    min-height: 700px;
   }
   .div-for-the-picture-on-first-page {
     background-image: url(./assets/images/illustration-sign-up-mobile.svg);
     height: 200px;
+    position: absolute;
+    top: 0;
+  }
+  .form-on-first-page {
+    text-overflow: overflow;
+    position: relative;
+    top: 100px;
+  }
+  .container-for-advatages {
+    line-height: 15px;
   }
 }
