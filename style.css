@@ -182,6 +182,7 @@ section.hidden {
   main {
     flex-direction: column;
     min-height: 700px;
+    text-overflow: overflow;
   }
   .div-for-the-picture-on-first-page {
     background-image: url(./assets/images/illustration-sign-up-mobile.svg);
@@ -198,8 +199,14 @@ section.hidden {
     line-height: 15px;
   }
   section {
-    width: 100%;
+    text-overflow: overflow;
+    width: 85%;
     height: 100%;
-    padding: 2%;
+  }
+  .dismiss-button {
+    margin-top: 60%;
+  }
+  .container-for-section {
+    margin-top: 25%;
   }
 }
